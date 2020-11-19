@@ -8,39 +8,39 @@
     tools:context=".MainActivity">
 
     <RadioGroup
-        android:id="@+id/radiogroup"
+        android:id="@+id/rg"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <RadioButton
-            android:id="@+id/radio_dog"
+            android:id="@+id/radio_solar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="강아지"/>
+            android:text="솔라"/>
 
         <RadioButton
-            android:id="@+id/radio_cat"
+            android:id="@+id/radio_moonbyul"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="고양이"/>
+            android:text="문별"/>
 
         <RadioButton
-            android:id="@+id/radio_rabbit"
+            android:id="@+id/radio_wheein"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="토끼"/>
+            android:text="휘인"/>
 
         <RadioButton
-            android:id="@+id/radio_horse"
+            android:id="@+id/radio_hwasa"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="말"/>
+            android:text="화사"/>
 
     </RadioGroup>
 
     <Button
-        android:id="@+id/btn_picture"
+        android:id="@+id/btn_show"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="그림보기"/>
+        android:text="사진보기"/>
 
 </LinearLayout>
